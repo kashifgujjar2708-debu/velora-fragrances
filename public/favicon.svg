@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="veloraRoseGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E5BFB7" />
+      <stop offset="48%" stop-color="#B76E79" />
+      <stop offset="100%" stop-color="#8C4B55" />
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" fill="#F6EFE6" />
+  <rect x="3" y="3" width="58" height="58" fill="none" stroke="url(#veloraRoseGold)" stroke-width="1.5" />
+  <path
+    d="M18.5 18 L24 18 L32 41.5 L40 18 L45.5 18 L33.4 48.5 L30.6 48.5 Z"
+    fill="url(#veloraRoseGold)"
+  />
+  <rect x="16.5" y="17.2" width="9.5" height="1.4" fill="url(#veloraRoseGold)" />
+  <rect x="38" y="17.2" width="9.5" height="1.4" fill="url(#veloraRoseGold)" />
+</svg>

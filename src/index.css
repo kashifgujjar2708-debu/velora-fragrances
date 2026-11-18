@@ -1,0 +1,63 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Cormorant Garamond", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  /* Day 2 Modern Luxury Rose Gold + Cream + Marble Palette */
+  --color-velora-rosegold: #B76E79;
+  --color-velora-rosegold-light: #E2B4B8;
+  --color-velora-rosegold-dark: #8E4D57;
+  --color-velora-cream: #F6EFE6;
+  --color-velora-softwhite: #FCFBF9;
+  --color-velora-beige: #EAE0D2;
+  --color-velora-charcoal: #252525;
+  --color-velora-gold: #C9A46B;
+  --color-velora-muted: #66635D;
+
+  /* Preserved aliases for storefront components */
+  --color-velora-white: #FFFFFF;
+  --color-velora-ivory: #F6EFE6;
+  --color-velora-stone: #EAE0D2;
+  --color-velora-gold-dark: #8E4D57;
+  --color-velora-gold-soft: #E2B4B8;
+}
+
+@layer base {
+  html,
+  body {
+    overflow-x: clip;
+  }
+
+  html {
+    font-family: var(--font-sans);
+    color: #252525;
+    background-color: #FCFBF9;
+    scroll-behavior: smooth;
+  }
+
+  h1, h2, h3, .font-display {
+    font-family: var(--font-display);
+  }
+
+  :where(a, button, input, select, textarea):focus-visible {
+    outline: 2px solid #8E4D57;
+    outline-offset: 2px;
+  }
+
+  .tabular-nums {
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

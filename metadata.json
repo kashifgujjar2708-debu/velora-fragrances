@@ -1,0 +1,6 @@
+{
+  "name": "Velora Fragrances",
+  "description": "VELORA FRAGRANCES — Modern luxury perfume e-commerce portfolio storefront for Pakistan (PKR), featuring Men's, Women's, Unisex, Oud & Arabic, French Perfumes, Attar Oils, Gift Sets, and a protected Admin Dashboard.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
